@@ -2,13 +2,17 @@
   "name": "Sprint-Challenge-Node-Express",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {"start" : "nodemon"},
+  "scripts": {
+    "start": "nodemon"
+  },
   "repository": "https://github.com/CBMR/Sprint-Challenge-Node-Express.git",
   "author": "Abdiel Fernandez <fernandezabdiel@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "knex": "^0.15.2",
+    "sqlite3": "^4.0.4"
   },
   "devDependencies": {
     "nodemon": "^1.18.7"
